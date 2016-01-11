@@ -1,0 +1,8 @@
+body,html {
+    background-color: #2196f3; /*blue by default since it's so cold lately */
+    color: #e3f2fd  ; /*blue lighten-5 from materialize css*/
+}
+
+h1 small {
+    color: #82b1ff; /*blue accent-1 */
+}
