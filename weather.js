@@ -5,3 +5,5 @@ if(navigator.geolocation) {
         $("#location").html("latitude: " + position.coords.latitude + "<br>longitude: " + position.coords.longitude);
     });
 }
+
+//test comment
