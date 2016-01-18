@@ -35,10 +35,10 @@ var errorCallback = function(error){
         errorMessage = 'Position unavailable';
         break;
       case 3:
-        errorMessage = 'Timeout';
+        errorMessage = 'Position Timeout';
         break;
     }
-    document.write(errorMessage);
+    $("#location").html(errorMessage);
 };
 
 var options = {
